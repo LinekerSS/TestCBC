@@ -40,9 +40,9 @@ Cadastrar um novo clube curl -X POST -H "Content-Type: application/json" -d
 
 '{
 
-  "nome":"Clube D",
-  
-  "saldo_disponivel":"2000.00"
+    "nome":"Clube D",
+
+    "saldo_disponivel":"2000.00"
   
 }' 
 
@@ -54,11 +54,11 @@ Consumir recurso de um clube curl -X POST -H "Content-Type: application/json" -d
 
 '{
 
-  "clube_id":1, 
-  
-  "recurso_id":"1", 
-  
-  "valor_consumo":"500.00"
+    "clube_id":1, 
+
+    "recurso_id":"1", 
+
+    "valor_consumo":"500.00"
   
 }'
 
