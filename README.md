@@ -1,4 +1,5 @@
 TestCBC
+
 API de Clubes - README Esta API fornece endpoints para manipulação de clubes e recursos relacionados. Você pode usar esses endpoints para listar clubes, cadastrar um novo clube e consumir recursos de um clube específico. A API foi desenvolvida em PHP e utiliza um banco de dados MySQL para armazenar os dados dos clubes.
 
 Requisitos Antes de iniciar a utilização da API, certifique-se de ter os seguintes requisitos instalados:
