@@ -38,17 +38,26 @@ http://localhost:8000/clubes
 
 Cadastrar um novo clube curl -X POST -H "Content-Type: application/json" -d 
 '{
+
   "nome":"Clube D",
+  
   "saldo_disponivel":"2000.00"
+  
 }' 
+
 http://localhost:8000/clube
 
 
 
 Consumir recurso de um clube curl -X POST -H "Content-Type: application/json" -d 
 '{
+
   "clube_id":1, 
+  
   "recurso_id":"1", 
+  
   "valor_consumo":"500.00"
+  
 }'
+
 http://localhost:8000/clubes/1/consumir-recurso Certifique-se de substituir http://localhost:8000 pelo URL correto onde a API está sendo executada.
