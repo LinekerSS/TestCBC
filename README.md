@@ -32,7 +32,7 @@ Exemplo de Uso Aqui está um exemplo de como você pode usar a API usando a ferr
 Listar todos os clubes curl -X GET 
 http://localhost:8000/clubes
 
----------------------------------/------------------------------------/-------------------------------/-------------------------------
+
 Cadastrar um novo clube curl -X POST -H "Content-Type: application/json" -d 
 '{
   "nome":"Clube D",
@@ -40,7 +40,7 @@ Cadastrar um novo clube curl -X POST -H "Content-Type: application/json" -d
 }' 
 http://localhost:8000/clube
 
----------------------------------/------------------------------------/-------------------------------/-------------------------------
+
 
 Consumir recurso de um clube curl -X POST -H "Content-Type: application/json" -d 
 '{
