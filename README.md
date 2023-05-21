@@ -37,6 +37,7 @@ http://localhost:8000/clubes
 
 
 Cadastrar um novo clube curl -X POST -H "Content-Type: application/json" -d 
+
 '{
 
   "nome":"Clube D",
@@ -50,6 +51,7 @@ http://localhost:8000/clube
 
 
 Consumir recurso de um clube curl -X POST -H "Content-Type: application/json" -d 
+
 '{
 
   "clube_id":1, 
