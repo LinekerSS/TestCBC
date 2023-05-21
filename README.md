@@ -6,9 +6,12 @@ Requisitos Antes de iniciar a utilização da API, certifique-se de ter os segui
 
 PHP (versão 5.6 ou superior) MySQL (ou outro banco de dados compatível) Configuração do Banco de Dados Antes de executar a API, você precisará configurar as informações de conexão com o banco de dados. Abra o arquivo PHP index.php e localize as seguintes linhas de código:
 
-$db_host = "localhost"; 
+$db_host = "localhost";
+
 $db_name = "nomedobanco"; 
+
 $db_user = "usuario"; 
+
 $db_password = "senha";
 
 Executando a API Após configurar corretamente as informações do banco de dados, você pode executar a API seguindo estas etapas:
